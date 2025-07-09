@@ -1,0 +1,9 @@
+MSH|^~\&|ARTEMIS|HOSPITAL_ITBA|RECEPTOR|DESTINO|202507061453||ORU^R01|00001|P|2.3
+    PID|||00001||Orbe^Lucas||20000101|U
+    OBR|1|||PWV^Velocidad de Onda de Pulso
+    OBX|1|NM|PWV^Velocidad de Onda de Pulso||7.24|m/s|4.7-9.2|N|||F
+    OBX|2|NM|HR^Frecuencia Cardíaca||83|bpm|60-100|N|||F
+    OBX|3|NM|ALT^Altura||171|cm|||N|||F
+    OBX|4|NM|SEG^Segmento||80|cm|||N|||F
+    OBX|5|TX|OBS^Observación||-|||N|||F
+    
