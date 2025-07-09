@@ -18,6 +18,7 @@ from PulseGraph import PulseGraph
 from ReportPage import ReportPage
 from ReportWindow import ReportWindow
 from Procesamiento import lowpass_filter, highpass_filter, calcular_cavi, calcular_vop, normalize
+from MainReport import init_report_page, show_report_page
 
 
 def init_app(self):
@@ -95,6 +96,7 @@ def init_app(self):
         # Botón para el informe
         self.report_button = QPushButton("Ver Informe VOP")
         self.report_button.setStyleSheet("background-color: #28a745; color: white; font-weight: bold;")
+        
         # Conectar el botón al nuevo método show_report
         self.report_button.clicked.connect(self.show_report_page)
         self.report_button.setEnabled(False) # Deshabilitado hasta que se carguen datos

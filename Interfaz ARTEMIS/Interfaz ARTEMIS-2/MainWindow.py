@@ -89,7 +89,7 @@ class MainWindow(QWidget):
         init_report_page(self)
 
     def show_report_page(self):
-        show_report_page
+        show_report_page(self)
 
     def leer_y_graficar(self):
         leer_y_graficar(self)

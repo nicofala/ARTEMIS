@@ -4,7 +4,6 @@ from PyQt5.QtWidgets import (
     QFileDialog, QStackedLayout, QGroupBox, QFrame, QSlider, QSizePolicy 
 )
 
-
 from ReportPage import ReportPage
 
 def init_report_page(self):
